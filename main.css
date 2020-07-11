@@ -1,0 +1,51 @@
+.module {
+    all: unset;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#backButton{
+    width: 104px;
+}
+
+#equalsButton{
+    width: 104px;
+}
+
+input[type='button']{
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+    margin: 1px;
+    cursor: pointer;
+}
+
+.textview{
+    width: 190px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+#calculator{
+    border-radius: 10px;
+    padding: 5px;
+    width: 220px;
+    background-color: aquamarine;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+h2{
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
